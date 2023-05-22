@@ -1,0 +1,279 @@
+nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  font-weight: 500;
+  top: 0;
+  position: sticky;
+}
+body {
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  width: 3%;
+}
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  width: 64%;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+
+  padding: 10px;
+}
+.dropdown a {
+  color: #000;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+.arrow {
+  height: 10px;
+  width: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.search {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  width: 28%;
+  margin-left: 20px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: 0.3s ease;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(69, 64, 66, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(76, 234, 176, 0.1);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  width: 1rem;
+  height: 1rem;
+}
+.icon2 {
+  position: absolute;
+  right: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15%;
+  font-size: 15px;
+  margin-left: 20px;
+  text-align: center;
+}
+.icon-3 img {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.main {
+  padding: 30px;
+}
+
+.hero {
+  background-image: url(../img/4.png);
+  background-size: contain;
+  width: 100%;
+  aspect-ratio: 3.32;
+  display: flex;
+  align-content: center;
+}
+.hero-pad {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.hero-main-text {
+  font-size: 40px;
+  font-weight: 500;
+}
+.sub-texts {
+  font-size: 18px;
+  margin-top: -25px;
+}
+.hero-texts {
+  width: 40%;
+  align-items: center;
+  color: #fff;
+  padding-left: 100px;
+}
+
+.hero-button {
+  padding: 10px;
+  background-color: rgb(69, 192, 151);
+  color: #000;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.bg-pad {
+  width: 50%;
+}
+.bg-img {
+  width: 50%;
+}
+.bg-img div img {
+  width: 500px;
+  height: 300px;
+  margin-top: 35px;
+  border-radius: 10px;
+}
+.bg-main-text {
+  font-size: 40px;
+}
+.bg-sub-texts {
+  font-size: 17px;
+  color: #000;
+  margin-top: -30px;
+  padding-right: 15px;
+}
+.bg-sub-texts-l {
+  font-size: 17px;
+  color: #fff;
+  margin-top: -30px;
+}
+.bg-texts {
+  align-items: center;
+  color: #000;
+}
+.bg-texts-l {
+  align-items: center;
+  color: #fff;
+}
+
+.bg-button {
+  padding: 10px;
+  background-color: rgb(69, 192, 151);
+  color: #000;
+  border-radius: 5px;
+  border: none;
+
+  margin-top: 15px;
+}
+
+.section-title {
+  font-size: 23px;
+  color: #000;
+  font-weight: 600;
+}
+
+.section {
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top: 50px;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-img img {
+  height: 200px;
+  width: 300px;
+}
+.card-main-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.card-sub-text {
+  font-size: 15px;
+  margin-top: -14px;
+}
+.card-content {
+  margin-top: -35px;
+}
+.card-list {
+  list-style: disc;
+}
+html {
+  zoom: 0.9;
+}
+
+.card {
+  height: fit-content;
+  padding: 20px;
+  width: inherit;
+  background-color: #fff;
+  -webkit-box-shadow: -1px 1px 11px 0px rgba(187, 176, 176, 0.63);
+  -moz-box-shadow: -1px 1px 11px 0px rgba(187, 176, 176, 0.63);
+  box-shadow: -1px 1px 11px 0px rgba(187, 176, 176, 0.63);
+  border-radius: 20px;
+}
+
+.bg-sec {
+  background-color: rgba(237, 235, 235, 0.758);
+  width: 100%;
+  height: fit-content;
+  margin-top: 100px;
+}
+.bg-sec-l {
+  background-color: rgb(28, 25, 25);
+  width: 100%;
+  height: fit-content;
+}
+.bg-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 50px;
+  display: flex;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
